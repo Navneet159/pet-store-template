@@ -1,0 +1,45 @@
+/* bootstrap */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css");
+
+/* fontawesome library */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+
+/* import custom font */
+@font-face {
+  font-family: "recoletaregular_demo";
+  src: url("../fonts/recoleta-regulardemo-webfont.woff2") format("woff2"),
+    url("../fonts/recoleta-regulardemo-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HellixRegular";
+  src: url("../fonts/Hellix-Regular.woff"), format("woff"),
+    url("../fonts/Hellix-Regular.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* global css  */
+:root {
+  --primary-color: #004a44;
+  --secondary-color: #f9d783;
+  --black-color: #111111;
+  --grey-color: #474a59;
+  --white-color: #ffffff;
+
+  --heading-fontfamily: "recoletaregular_demo";
+  --sub-heading-fontfamily: "HellixRegular";
+}
+
+/* body css */
+body {
+  font-family: var(--sub-heading-fontfamily);
+  /* background: #004a44; */
+}
+
+.navbar-brand {
+  font-family: var(--heading-fontfamily);
+  font-size: xx-large;
+}

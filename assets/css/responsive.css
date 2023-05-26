@@ -1,0 +1,17 @@
+@media only screen and (min-width: 375px) and (max-width: 760px) {
+  .navbar-brand {
+    /* background: red; */
+    margin-left: 0px !important;
+  }
+
+  .marDiv {
+    display: none;
+  }
+  .icons {
+    display: none;
+  }
+
+  .btn {
+    display: none;
+  }
+}
