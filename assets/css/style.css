@@ -1,6 +1,10 @@
 /* bootstrap */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css");
 
+/* cards carousel
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css"); */
+
 /* fontawesome library */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
 
@@ -19,6 +23,27 @@
     url("../fonts/Hellix-Regular.woff2") format("woff");
   font-weight: normal;
   font-style: normal;
+}
+
+/* owl carousel css */
+
+.home-demo .item {
+  background: #fbf3eb;
+}
+.home-demo h2 {
+  color: #fff;
+  text-align: center;
+  padding: 5rem 0;
+  margin: 0;
+  font-style: italic;
+  font-weight: 300;
+}
+/* custom css for owl carousel */
+.img-fit {
+  /* float: left; */
+  width: 100px;
+  height: 200px;
+  object-fit: cover;
 }
 
 /* global css  */
@@ -45,13 +70,42 @@ body {
   /* background: #004a44; */
 }
 
-.navbar-brand {
+.navbar-nav > li {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: small;
+  width: max-content;
+}
+
+.navbar-nav {
+  margin-left: 35%;
+}
+.navbar-nav > li {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.navbar-brand-div {
   font-family: var(--heading-fontfamily);
-  font-size: xx-large;
+  /* font-size: xx-small; */
+  rotate: -10deg;
+}
+
+.navbar-brand {
+  font-size: larger;
+  font-weight: 600;
+}
+
+.icons {
+  margin-left: 35%;
+  width: 100px;
 }
 
 .navbtn {
+  margin-left: 10px;
   background: var(--secondary-color);
+  white-space: nowrap;
+  padding: 10px 15px;
 }
 
 .s1btn {
@@ -71,6 +125,25 @@ body {
   color: var(--white-color);
   border-radius: 15px;
 }
+.bowl-img {
+  height: 550px;
+  object-fit: contain;
+  margin-left: 150px;
+}
+
 .s2Cf {
   background: #02786e;
+}
+
+.customer-dp {
+  width: 50px;
+  height: 50px;
+  /* background: red; */
+  border-radius: 50%;
+  /* object-fit: cover; */
+  overflow: hidden;
+}
+
+.img-overlap {
+  left: 35px;
 }
