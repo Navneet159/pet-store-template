@@ -56,7 +56,13 @@ body {
 }
 
 /* header */
-
+.class-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
 
 .navbar-brand-div {
   font-family: var(--heading-fontfamily);
@@ -69,14 +75,14 @@ body {
 
 
 #navbarNav .nav-item .nav-link {
-  font-size: large;
-  font-weight: bold;
+  font-size: 15px;
+  font-weight: bolder;
+  color: var(--black-color);
   font-family: var(--sub-heading-fontfamily);
 }
 
-.nav-link:hover {
+#navbarNav .nav-item .nav-link:hover {
   color: var(--primary-color);
-  /* color:red; */
 }
 
 /* cart  */
@@ -104,11 +110,11 @@ body {
 /* Custom Css */
 .hero-section {
   background: #fbf3eb;
-  height: 150vh;
+  height: 1000px;
 }
 
 .nutrition-div {
-  padding-top: 12%;
+  padding-top: 16%;
 }
 
 .nutriton-text {
@@ -117,7 +123,7 @@ body {
 
 .nutrition-div-des {
   font-family: var(--heading-fontfamily);
-  font-size: 90px;
+  font-size: 85px;
   font-weight: bolder;
   line-height: 110%;
 }
@@ -136,9 +142,11 @@ body {
   right: -20px;
 }
 
+
+
 .hero-section-review-star {
   top: -35px;
-  right: -50px;
+  right: 0px;
 }
 
 .hero-section-customer-dp {
@@ -148,6 +156,7 @@ body {
   border-radius: 50%;
   object-fit: cover;
   overflow: hidden;
+  margin-right: -25px;
 
 }
 
