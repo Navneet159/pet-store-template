@@ -455,7 +455,7 @@ body {
 
 .section-instagram-big-img {
   position: absolute;
-  top: -100px;
+  top: -7px;
   left: 25px;
 }
 
@@ -469,7 +469,7 @@ footer {
 }
 
 footer .container .row {
-  padding-top: 150px;
+  padding-top: 250px;
 }
 
 .list-group-item {
