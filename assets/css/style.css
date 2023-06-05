@@ -131,6 +131,7 @@ body {
 
 .section-hero-center {
   margin-top: 32%;
+  padding-left: 10%;
 }
 
 .hero-section-image-reviewsdiv {
@@ -191,7 +192,7 @@ body {
 
 
 .hero-seciton-bottom-center-div {
-  margin-top: 175px;
+  margin-top: 168px;
   padding-left: 0px;
 }
 
@@ -278,6 +279,7 @@ body {
   background: #fbf3eb;
   margin-top: 50px;
   padding-top: 50px;
+  height: 1000px;
 }
 
 .section-bestSelling-title {
@@ -315,6 +317,11 @@ body {
   font-weight: 300;
 }
 
+.item-fav-heart-shape {
+  right: 40px;
+  top: 30px;
+}
+
 .item-container {
   background: #fbf3eb;
   width: 370px;
@@ -336,4 +343,106 @@ body {
   height: 300px;
   object-fit: cover;
   padding: 10px;
+}
+
+.section-reviewrewards {
+  height: 600px;
+  padding-top: 100px;
+}
+
+.section-rewards-heading {
+  font-family: var(--heading-fontfamily);
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.section-rewards-heading-8000 {
+  color: var(--primary-color);
+}
+
+.carousel-inner {
+  margin-top: 10px;
+  overflow: visible !important;
+}
+
+.carousel-item {
+  height: 320px;
+  padding-top: 100px;
+}
+
+.section-reviewrewards .carousel-control-prev-icon {
+  background: var(--primary-color);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: -30px;
+  left: -63px;
+}
+
+.section-reviewrewards .carousel-control-next-icon {
+  background: var(--primary-color);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: -30px;
+  left: 13px;
+}
+
+.section-reviewrewards-customer-dp {
+  width: 100px;
+  height: 100px;
+  border: 2px solid var(--white-color);
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+  margin-right: -25px;
+  position: absolute;
+  top: -70px;
+  left: 25px;
+  z-index: 14;
+
+}
+
+.section-reviews-quotation-icon {
+  color: #f9e2c9;
+  top: 0;
+  right: 20px;
+}
+
+.section-reviews-quotation-desc {
+  font-size: large;
+  font-weight: 800;
+  font-family: var(--heading-fontfamily);
+}
+
+.section-inspirations {
+  height: 1000px;
+  background: #eef9ff;
+}
+
+.section-inspirations .card {
+  height: 600px;
+}
+
+.section-inspirations-heading {
+  font-size: 60px;
+  font-weight: 800;
+  font-family: var(--heading-fontfamily);
+}
+
+.section-inspirations .card-text {
+  font-family: var(--heading-fontfamily);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.section-inspirations .read-more {
+  color: var(--primary-color);
+  font-size: 18px;
+}
+
+.section-instagram {
+  height: 1200px;
 }
